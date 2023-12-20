@@ -9,9 +9,6 @@ def generate_ticket(authkey_path, system_type, username, time_offset=-30):
     if system_type not in ['PVE', 'PMG']:
         raise ValueError("Invalid system type. Must be 'PVE' or 'PMG'.")
 
-    valid_domains = ['@pve', '@pmg', '@pam']
-    if not any(username.endswith(domain) for domain in valid_domains):
-        raise ValueError(f"Username must end with one of the following: {', '.join(valid_domains)}.")
 
     timestamp = hex(int(time.time()) + time_offset)[2:].upper()
     plaintext = f'{system_type}:{username}:{timestamp}'
