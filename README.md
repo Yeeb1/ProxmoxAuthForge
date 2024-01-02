@@ -20,4 +20,5 @@ PVE:root@pam:6582A001::mSoWs0OiTIiT9XlvkUT/kojDzIvAQaSF76kdGULdVb3a7L5d70lQyimQv
 
 ---
 
-*The script is for informational and educational purposes only. The author and contributors of this script are not responsible for any misuse or damage caused by this tool.*
+*The script is for informational and educational purposes only. The author and contributors of this script are not responsible for any misuse or damage caused by this tool.* <!-- meme -->
+
