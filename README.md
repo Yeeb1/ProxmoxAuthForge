@@ -1,4 +1,4 @@
-## Overview
+## ProxmoxAuthForge
 This Python script is a modified version of the original proof of concept by Li JianTao ([@cursered](https://x.com/cursered)), designed for forging PVE (Proxmox VE) authentication tokens. The script generates the cookie "PVEAuthCookie" or "PMGAuthCookie" by using the `authkey.key` of a Proxmox instance for signing.
 
 For more details, visit: [Multiple Vulnerabilities in Proxmox VE & Proxmox Mail Gateway](https://starlabs.sg/blog/2022/12-multiple-vulnerabilites-in-proxmox-ve--proxmox-mail-gateway/#privilege-escalation-in-pmg-via-unsecured-backup-file).
